@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(215, 208, 208);
+}
+
+.Logo {
+    width: 223px;
+    height: 54px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: sticky;
+    top: 0;
+
+}
+
+.navbar {
+    background-color: rgb(255, 255, 255);
+}
+
+ul {
+    display: flex;
+}
+
+.navbar ul li {
+    list-style: none;
+    padding: 20px;
+}
+
+ul li a {
+    color: rgb(220, 195, 124);
+    text-decoration: none;
+    padding: 20px;
+}
+
+a:hover {
+    /* background-color: grey; */
+    color: rgb(202, 178, 113);
+}
+
+a:link {
+    text-decoration: none;
+}
+
+/* a:visited {
+    color: aliceblue;
+} */
+
+.details div{
+    display: flex;
+    justify-content: center;
+}
+
+.wlc {
+    margin-top: 10px;
+    background-color: aliceblue;
+    display: flex;
+}
+
+.greet {
+    margin-top: 10px;
+    text-align: center;
+    background-color: rgb(196, 241, 255);
+}
+
+.wlc p {
+    padding: 10px;
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.wlc p::first-letter {
+    color: rgb(140, 7, 7);
+    font-size: 55px;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.hidden {
+    display: none;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.quiz-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #90bae7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.quiz-btn:hover {
+    background-color: #0056b3;
+}
+
+.question {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#result {
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+footer {
+    background-color: cornflowerblue;
+}
+
+  footer a{
+    color: antiquewhite;
+  }

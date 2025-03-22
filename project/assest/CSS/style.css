@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* body {
+    background-color: rgb(226, 204, 249);
+} */
+
+header{
+    position: sticky;
+    top: 0;
+    background-color:rgba(40, 40, 43, 0.991);
+    height: 80px; 
+}
+
+.navbar {
+    height: 80px;
+    font-family: "Game of Thrones";
+}
+
+.Logo {
+    width: 223px;
+    height: 54px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul li {
+    list-style: none;
+    padding: 20px;
+}
+
+.navbar ul li a {
+    color: rgb(165, 136, 220);
+    font-weight: 300;
+    text-decoration: none;
+    padding: 0px 20px;
+}
+
+.navbar a:hover {
+    color: rgb(137, 76, 222);
+}
+
+main{
+    /* position: absolute; */
+    background-image: url('../img/quiz.jpeg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.greet {
+    margin-top: 0px;
+    text-align: center;
+    /* font-family: ; */
+}
+
+.wlc {
+    background-color: rgb(226, 204, 249);
+}
+
+.wlc p {
+    background-image: url('../img/quiz.jpeg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+    font-size: larger;
+    /* font-weight: bold; */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.wlc p::first-letter {
+    color: rgb(140, 7, 7);
+    /* font-size: 55px; */
+}
+
+h3{
+    text-align: center;
+}
+.grid{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.box {
+    border: 0px solid;
+    border-radius: 10px;
+    width: 280px;
+    height: 480px;
+    /* background-color: rgba(118, 82, 185, 0.782); */
+    background-color: rgba(49, 45, 54, 0.814);
+    overflow: hidden;
+    padding: 10px;
+    margin: 10px;
+}
+
+.image img{
+    margin: 5px;
+    width:252px; 
+    height:156.25px;
+    border-radius: 10px;
+}
+.box div ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .btn{
+    border-radius: 10px;
+    color: rgb(29, 137, 187);
+    background-color: rgb(198, 215, 232);
+    font-weight: 500;
+    width: 70px;
+    height: 30px;
+} */
+
+.btn:hover{
+    background-color: rgb(161, 193, 225);
+    color: rgb(50, 132, 171);
+}
+.box div ul li{
+    margin: 5px;
+}
+
+.boxtext{
+    text-align: center;
+    color:  #fff;
+}
+
+.box:hover{
+    background-color: rgba(36, 33, 40, 0.814);
+    box-shadow: 2px 2px 1px rgb(222, 211, 211);
+}
+
+div .button{
+    display: flex;
+    justify-content: center;
+}
+
+.button button{
+    border-radius: 13px;
+    background-color: rgb(198, 215, 232);
+    padding: 6px 20px;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(50, 132, 171);
+    border: none;
+}
+
+.button button:hover{
+    background-color:  rgb(177, 203, 229);
+}
+
+.button button a:hover{
+    text-decoration: none;
+    color: rgb(50, 132, 171);
+}
+
+.box p {
+    color: aliceblue;
+    text-align: center;
+    font-size: large;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family:"poppins", monospace;
+    font-weight: 100;
+}
+
+#subject-selection {
+    list-style: none;
+}
+
+#subject-selection a {
+    display: block;
+    padding: 2px;
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#quiz-content{
+    background-color: beige;
+}
+
+.box p a{
+    background-color: bisque;
+    color:black;
+    font-weight: bold;
+}
+.sec-box p a:hover{
+    background-color: purple;
+}
+.sec-box p a:link{
+    text-decoration: none;
+}
+
+#result {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: aquamarine;
+}
+
+footer {
+    background-color: rgba(40, 40, 43, 0.991);
+    width: auto;
+    color: aliceblue;
+}
+
+/* button .bt{
+    border-radius: 13px;
+    background-color: rgb(198, 215, 232);
+    padding: 6px 20px;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(50, 132, 171);
+    border: none;
+} */
+
+.about-us {
+    background-image: url('../img/quiz.jpeg') ;
+    background-repeat:no-repeat;
+    background-size:cover;
+    font-size: large;
+    font-weight: bold;
+    padding: 10px;
+  }
+  .about-us P{
+    color: whitesmoke;
+  }
+  .about-us li{
+    color: whitesmoke;
+  }
+
+  .subjects{
+    padding: 1px;
+  }
+
+  .subjects p{
+    color: whitesmoke;
+    font-size: large;
+  }
+  .subjects li{
+    color: whitesmoke;
+    padding: 5px;
+    font-size: large;
+  }
+.Contact-us{
+    padding: 5px;
+}
+  .Contact-us li{
+    color: whitesmoke;
+    font-size: larger;
+    padding: 5px;
+  }
+
+  .Contact-us a{
+    color:antiquewhite;
+  }
+
+  footer a{
+    color: antiquewhite;
+  }
